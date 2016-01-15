@@ -1,0 +1,11 @@
+$translateWidth: 100px;
+$rotateDeg: 10deg;
+
+body{
+  background: #fff;
+  width: (800 + 600) px;
+}
+
+.test {
+  transform: translate($translateWidth) rotate($rotateDeg);
+}
